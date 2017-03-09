@@ -2,7 +2,7 @@
 var Hmz = function(warp ,opt){
   this.warp = warp;
   this.options = this.extend({
-    type: 'swipe', // swipe: 滑屏切换，默认， cover: 卡牌切换
+    type: 'swipe', // swipe: 滑屏切换，默认， cover: 卡牌切换（暂未实现）
     derection: 'Y', // Y为垂直方向滑动， X为水平方向滑动
     currentIndex: 0,
     currentElem: null,
