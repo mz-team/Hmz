@@ -83,11 +83,10 @@
         </section>
     </div>
 </div>
-<!-- <script src="js/jquery-2.1.1.min.js"></script> -->
 <script src="js/Hmz.js"></script>
 <script>
     var hmz = new Hmz('.page-wrapper' ,{
-        // type: 'swipe',
+        type: 'swipe',
         derection: 'Y'
     });
     var box = new Hmz('.box', {
@@ -96,7 +95,7 @@
     })
 
     var tasks = ['images/banner01.png','images/banner02.png','images/banner03.png','images/banner04.png','images/banner05.png','images/1.png','images/2.png','images/3.png','images/4.png','images/5.png','images/6.png','images/7.png','images/8.png','images/9.png'];
-    var pre = new preLoad();
+    var pre = new PreLoad();
     pre.load(tasks,
     {
         onload: function(load)
