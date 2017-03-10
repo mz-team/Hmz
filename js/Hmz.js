@@ -367,7 +367,7 @@ var PreLoad = (function(){
               _audio(d); break;
         }
       })
-    }
+    },
     _getProgress = function() {
       return Math.round(count / total * 100);
     },
